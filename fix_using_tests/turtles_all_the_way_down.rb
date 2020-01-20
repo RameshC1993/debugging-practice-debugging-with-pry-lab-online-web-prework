@@ -11,9 +11,9 @@ end
 def turtle_traits(turtles)
   turtles.map do |turtle|
     if turtle[:traits].kind_of?(Array)
-      return turtle[:traits]
+       turtle[:traits]
     else 
-      return [turtle[:traits]]
+       [turtle[:traits]]
     end
       
     
